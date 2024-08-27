@@ -8,7 +8,7 @@
 
 ###### Preamble
 
-<img align="right" width="80" height="120" src="Cpp_Introduction/Images/CertifiedExpertTrainer.png" />
+<!-- <img align="right" width="80" height="120" src="Cpp_Introduction/Images/CertifiedExpertTrainer.png" /> -->
 
 <br/>*Edsger W. Dijkstra*:<br/>*&bdquo;The three chief virtues of a programmer are: Laziness, Impatience and Hubris.&rdquo;*
 
