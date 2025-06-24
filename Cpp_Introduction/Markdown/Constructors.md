@@ -240,6 +240,6 @@ von `int` nach `Time` bzw. von `const char*` nach `Time` statt:
 
 ---
 
-[Zur�ck](Agenda.md)
+[Zurück](Agenda.md)
 
 ---
