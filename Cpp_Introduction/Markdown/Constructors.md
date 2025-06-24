@@ -1,13 +1,13 @@
 # Initialisierung von Objekten: Konstruktoren
 
 
-[Zur�ck](Agenda.md)
+[Zurück](Agenda.md)
 
 ---
 
-## Erl�uterungen
+## Erläuterungen
 
-Um die Integrit�t eines Objekts f�r seine gesamte Lebensdauer zu gew�hrleisten,
+Um die Integrität eines Objekts für seine gesamte Lebensdauer zu gewährleisten,
 sind Instanzvariablen eines Objekts bereits bei seiner *Erzeugung* sinnvoll zu initialisieren.
 
 Darunter versteht man *nicht* die Vorgehensweise wie in diesem Code-Fragment gezeigt:
@@ -27,28 +27,28 @@ Man hat ein sprachliches Mittel geschaffen, um die Anweisung
 Time now;
 ```
 
-so zu erweitern, dass f�r das Objekt auch Vorbelegungswerte mit �bergeben werden k�nnen:
+so zu erweitern, dass für das Objekt auch Vorbelegungswerte mit übergeben werden können:
 
 ### Was sind Konstruktoren?
 
 Unter einem *Konstruktor* versteht man eine spezielle Art von Methode, die
 
-  * den gleichen Namen wie die Klasse hat, zu der sie geh�rt und
-  * die *keinen* R�ckgabetyp hat.
+  * den gleichen Namen wie die Klasse hat, zu der sie gehört und
+  * die *keinen* Rückgabetyp hat.
 
-Ein Konstruktor besitzt die Aufgabe, die Instanzvariablen eines Objekts vollst�ndig mit sinnvollen Werten vorzubelegen.
+Ein Konstruktor besitzt die Aufgabe, die Instanzvariablen eines Objekts vollständig mit sinnvollen Werten vorzubelegen.
 Umgangssprachlich kann man auch sagen, dass ein Konstruktor eine Instanz &bdquo;konstruiert&rdquo;.
 
 Die Anweisung zum Aufruf eines Konstruktors wird durch den Compiler im Zuge der Objekterzeugung *automatisch* abgesetzt.
-Auf diese Weise wird erreicht, dass Objekterzeugung und Konstruktorausf�hrung zu einer Einheit *verschmelzen*.
+Auf diese Weise wird erreicht, dass Objekterzeugung und Konstruktorausführung zu einer Einheit *verschmelzen*.
 
-### �berladen von Konstruktoren
+### Überladen von Konstruktoren
 
 Eine Klasse kann durchaus mehrere Konstruktoren besitzen.
-Wir sto�en auf das Feature des *�berladens von Methoden*
-h�ufig im Umfeld von Konstruktoren.
+Wir stoßen auf das Feature des *Überladens von Methoden*
+häufig im Umfeld von Konstruktoren.
 
-Im nachfolgenden Beispiel finden wir also gleich f�nf Konstruktoren vor:
+Im nachfolgenden Beispiel finden wir also gleich fünf Konstruktoren vor:
 
 #### Datei [*Time.h*](../Constructors/Time.h):
 
