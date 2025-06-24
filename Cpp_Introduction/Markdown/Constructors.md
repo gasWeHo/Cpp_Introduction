@@ -1,13 +1,13 @@
 # Initialisierung von Objekten: Konstruktoren
 
 
-[Zurück](Agenda.md)
+[Zurï¿½ck](Agenda.md)
 
 ---
 
-## Erläuterungen
+## Erlï¿½uterungen
 
-Um die Integrität eines Objekts für seine gesamte Lebensdauer zu gewährleisten,
+Um die Integritï¿½t eines Objekts fï¿½r seine gesamte Lebensdauer zu gewï¿½hrleisten,
 sind Instanzvariablen eines Objekts bereits bei seiner *Erzeugung* sinnvoll zu initialisieren.
 
 Darunter versteht man *nicht* die Vorgehensweise wie in diesem Code-Fragment gezeigt:
@@ -19,7 +19,7 @@ now.setMinutes(20);
 now.setSeconds(30);
 ```
 
-Es kann vom Übersetzer nicht sicher gestellt werden, dass auf diese Weise
+Es kann vom ï¿½bersetzer nicht sicher gestellt werden, dass auf diese Weise
 *alle* Instanzvariablen des Objekts erreicht werden.
 Man hat ein sprachliches Mittel geschaffen, um die Anweisung
 
@@ -27,28 +27,28 @@ Man hat ein sprachliches Mittel geschaffen, um die Anweisung
 Time now;
 ```
 
-so zu erweitern, dass für das Objekt auch Vorbelegungswerte mit übergeben werden können:
+so zu erweitern, dass fï¿½r das Objekt auch Vorbelegungswerte mit ï¿½bergeben werden kï¿½nnen:
 
 ### Was sind Konstruktoren?
 
 Unter einem *Konstruktor* versteht man eine spezielle Art von Methode, die
 
-  * den gleichen Namen wie die Klasse hat, zu der sie gehört und
-  * die *keinen* Rückgabetyp hat.
+  * den gleichen Namen wie die Klasse hat, zu der sie gehï¿½rt und
+  * die *keinen* Rï¿½ckgabetyp hat.
 
-Ein Konstruktor besitzt die Aufgabe, die Instanzvariablen eines Objekts vollständig mit sinnvollen Werten vorzubelegen.
+Ein Konstruktor besitzt die Aufgabe, die Instanzvariablen eines Objekts vollstï¿½ndig mit sinnvollen Werten vorzubelegen.
 Umgangssprachlich kann man auch sagen, dass ein Konstruktor eine Instanz &bdquo;konstruiert&rdquo;.
 
 Die Anweisung zum Aufruf eines Konstruktors wird durch den Compiler im Zuge der Objekterzeugung *automatisch* abgesetzt.
-Auf diese Weise wird erreicht, dass Objekterzeugung und Konstruktorausführung zu einer Einheit *verschmelzen*.
+Auf diese Weise wird erreicht, dass Objekterzeugung und Konstruktorausfï¿½hrung zu einer Einheit *verschmelzen*.
 
-### Überladen von Konstruktoren
+### ï¿½berladen von Konstruktoren
 
 Eine Klasse kann durchaus mehrere Konstruktoren besitzen.
-Wir stoßen auf das Feature des *Überladens von Methoden*
-häufig im Umfeld von Konstruktoren.
+Wir stoï¿½en auf das Feature des *ï¿½berladens von Methoden*
+hï¿½ufig im Umfeld von Konstruktoren.
 
-Im nachfolgenden Beispiel finden wir also gleich fünf Konstruktoren vor:
+Im nachfolgenden Beispiel finden wir also gleich fï¿½nf Konstruktoren vor:
 
 #### Datei [*Time.h*](../Constructors/Time.h):
 
@@ -178,9 +178,9 @@ wurden die anderen Methoden der Klasse bis auf wenige Ausnahmen weggelassen.
 
 ### Element-Initialisierungsliste (*Member Initializer List*)
 
-Ein Konstruktor kann optional über eine so genannte *Element-Initialisierungsliste* verfügen,
+Ein Konstruktor kann optional ï¿½ber eine so genannte *Element-Initialisierungsliste* verfï¿½gen,
 die die Instanzvariablen initialisiert,
-bevor der Rumpf des Konstruks ausgeführt wird.
+bevor der Rumpf des Konstruks ausgefï¿½hrt wird.
 
 Im letzten Code-Fragment kommt diese Syntax bei zwei Konstruktoren 
 zum Einsatz:
@@ -211,7 +211,7 @@ Time(const char*);
 
 
 Beide Konstruktoren besitzen genau ein Argument, dessen Datentyp
-gewissermaßen dem *Quelldatentyp*  entspricht.
+gewissermaï¿½en dem *Quelldatentyp*  entspricht.
 Der *Zieldatentyp* wiederum ist gleich dem Typ der Klasse,
 es findet in beiden Beispielen folglich eine Konvertierung
 von `int` nach `Time` bzw. von `const char*` nach `Time` statt:
@@ -240,6 +240,6 @@ von `int` nach `Time` bzw. von `const char*` nach `Time` statt:
 
 ---
 
-[Zurück](Agenda.md)
+[Zurï¿½ck](Agenda.md)
 
 ---
